@@ -31,8 +31,8 @@ function discriminant($arr)
     } else {
         $sqrt = sqrt(-$dis);
         echo "Discriminant is strictly negative, there are no real solutions\nThe two complexes solutions are:\n";
-        echo "(" . -$arr[1] . "+ i" .$sqrt .") / " . 2*$arr[2];
-        echo "(" . -$arr[1] . "- i" .$sqrt .") / " . 2*$arr[2];
+        echo "(" . -$arr[1] . " + i * " .$sqrt .") / " . 2*$arr[2] . "\n";
+        echo "(" . -$arr[1] . " - i * " .$sqrt .") / " . 2*$arr[2];
     }
 }
 
